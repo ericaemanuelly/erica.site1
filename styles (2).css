@@ -1,0 +1,72 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0;
+    padding: 0;
+    background-color: #87CEFA; /* Cor de fundo suave */
+}
+
+/* Estilo da navbar */
+.navbar {
+    background-color: #333; /* Cor de fundo da navbar */
+    padding: 10px; /* Espaçamento interno */
+}
+
+.nav-links {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f0f0f0;
+}
+
+/* Estilo da tabela */
+table {
+    width: 80%; /* Largura da tabela */
+    margin: 20px auto; /* Margem superior/inferior e centralização horizontal */
+    border-collapse: collapse; /* Remove o espaçamento entre as bordas das células */
+    background-color: #fff; /* Cor de fundo da tabela */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para um efeito de profundidade */
+}
+
+/* Estilo das células da tabela */
+th, td {
+    padding: 10px; /* Espaçamento interno das células */
+    text-align: center; /* Alinha o texto ao centro */
+    border: 1px solid #ddd; /* Borda das células */
+}
+
+/* Estilo do cabeçalho da tabela (não está presente neste exemplo, mas útil para futuras alterações) */
+th {
+    background-color: #f4f4f4; /* Cor de fundo do cabeçalho */
+    font-weight: bold; /* Negrito para o texto do cabeçalho */
+}
+
+/* Estilo das linhas ímpares para alternar a cor */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor de fundo das linhas pares */
+}
+
+tr:nth-child(odd) {
+    background-color: #fff; /* Cor de fundo das linhas ímpares */
+}
+
+/* Estilo das linhas da tabela ao passar o mouse */
+tr:hover {
+    background-color: #f1f1f1; /* Cor de fundo ao passar o mouse */
+}
